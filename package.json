@@ -1,0 +1,19 @@
+{
+  "name": "pg-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "moment": "^2.29.1",
+    "pg": "^8.7.3",
+    "pg-format": "^1.0.4"
+  }
+}
