@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "rootDir": "ts",
+    "outDir": "dist"
+  },
+  
+  "include": ["ts/src/**/*", "index.js", "parser.js"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
